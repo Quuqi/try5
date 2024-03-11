@@ -1,0 +1,28 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+p{
+	font-size: 50px;
+	text-align: center;
+	color: lime;
+}
+.in1{
+	display: block;
+	margin-bottom: 20px;
+	height: 1cm;
+	font-size: 24px;
+	font-family: cursive;
+	color: darkviolet;
+}
+.s1, .s2{
+	font-size: 24px;
+}
+.s2{
+	color: cadetblue;
+}
+.in3{
+	width: 30%;
+	height: 30px;
+	background-color: lightpink;
+
+}

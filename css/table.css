@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Kablammo&family=Lobster&family=Pacifico&family=Pattaya&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Rubik+Glitch+Pop&family=Rubik+Scribble&display=swap');
+body{
+	background-color: lemonchiffon;
+}
+p{
+	font-size: 50px;
+	font-family: "Kablammo", system-ui;
+	text-align: center;
+	color: royalblue;
+
+}
+table{
+	border: double 5px green;
+	width: 50%;
+	font-size: 24px;
+	margin: auto;
+}
+th, td{
+	border: solid 2px salmon;
+	width: 25%;
+	height: 1cm;
+}
+tr:hover{
+	background-color: lightgray;
+}
+td:hover{
+	text-transform: uppercase;
+	text-align: center;
+	font-weight: 700;
+	color: orange;
+	font-size: 1.5em;
+	background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/3/3b/ColorRotateHr.gif/480px-ColorRotateHr.gif);
+
+}
+td:nth-childe(odd){
+	background-color: lightpink;
+}
+td:nth-childe(even){
+	background-color: lightskyblue;
+}
+.sc{
+	text-align: right;
+	vertical-align: middle;
+	color: green;
+	font-style: italic;
+}
+caption{
+	font-size: 50px;
+	color: lime;
+	background: linear-gradient(to left, red, orange, yellow, green, blue, indigo, purple);
+}

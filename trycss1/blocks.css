@@ -1,0 +1,61 @@
+body{
+	background-color: yellow;
+}
+p{
+	font-size: 50px;
+	background-color: #20B2AA;
+}
+.p1{
+	display: inline-block;
+}
+.s1{
+	border: dotted 2px red;
+	display: block;
+}
+#first{
+	width: 500px;
+	height: 500px;
+	background-color: #00FFFF;
+	border: ridge 21px violet;
+	font-size: 35px;
+/* Один з способів розмістити по центру рамки */ 	
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-width: 20px;
+	border-left: dotted yellow 20px;
+	border-right: dashed olive 20px;
+	border-bottom: groove red 20px;
+	border-top: ridge orange 20px;
+	margin: 50px;
+}
+#second{
+	width: 700px;
+	height: 700px;
+	background-color: violet;
+	border: ridge 21px #00FFFF ;
+	font-size: 35px;
+	text-align: center;
+	padding: 50px;
+	border-style: dotted dashed;
+	border-color: red orange yellow pink;
+}
+#third, #forth{
+	width: 800px;
+	height: 200px;
+	margin: 20px;
+}
+#third{
+	background-color: #2E8B57;
+	width: 600px;
+	text-align: right;
+	border: dotted 30px;
+	border-color: #FF4500 #EEE8AA;
+}
+#forth{
+	background-color: #4682B4;
+	text-align: left;
+	border: ridge 30px;
+	border-color: #DAA520 #483D8B;
+
+}

@@ -1,0 +1,29 @@
+body{
+	background-color: lightgoldenrodyellow;
+}
+p{
+	font-size: 50px;
+}
+.p1{
+	background: linear-gradient(#AFEEEE,#7FFFD4,#7B68EE);
+	text-align: center;
+}
+.p2{
+	font-family: ;
+	font-style: italic;
+}
+.p3{
+	font-family: cursive;
+	font-weight: 900;
+}
+.p4{
+	font-family: 'Lobster', cursive;
+}
+.p5{
+	font-family: 'Rubik Gemstones', cursive;
+}
+.p6{
+	font-family: 'Rubik Wet Paint', cursive;
+	color: red;
+	background-color: black;
+}
